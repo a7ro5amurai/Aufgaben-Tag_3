@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+h1{
+    padding: 10px 0px 10px 5px;
+}
+
+p{
+    padding: 0px 0px 10px 5px;
+}
+
+section{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+li{
+    list-style-type: none;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding-inline-start: 1.2em;
+}
+
+/* ul:nth-child(1) 
+ul:nth-child(1)
+ul:nth-child(1)
+li
+{
+    list-style-type: "\1F415";
+} */
+.dog li
+{
+    list-style-type: "\1F415";
+}
+
+.cat li
+{
+    list-style-type: "🐱";
+}
+.parrot li
+{
+    list-style-type: "🦜";
+}
+.snake li
+{
+    list-style-type: "🐍";
+}
+.lizard li
+{
+    list-style-type: "🦎";
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+h3, p{
+    display: center;
+}
+
+h3{
+    color: white;
+    background-color: darkgrey;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, ul{
+    margin: auto 20px 10px 20px;
+}
+
+p, ul li{
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+ul li:nth-of-type(1){
+    text-decoration: overline;
+}
+ul li:nth-of-type(2){
+    text-decoration: line-through;
+    text-align: center;
+}
+ul li:nth-of-type(3){
+    text-decoration: underline;
+    text-align: end;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "DancingScript-Var";
+    src: url("../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Lightitalic";
+    src: url("../fonts/Montserrat/Montserrat-LightItalic.ttf");
+}
+@font-face {
+    font-family: "PlayfairDisplay-Italic";
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf");
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url("../fonts/Raleway/Raleway-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+header, article{
+    display: inline-block center;
+    width: 27rem;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+article:nth-child(3), article:nth-child(5){
+    padding: 10px;
+}
+
+h1{
+    font-family: "Raleway-Bold";
+    background-color: #5C3CDC;
+    color: greenyellow;
+    border-radius: 5px;
+}
+
+article:nth-of-type(1) {
+    font-family: "Roboto-Regular";
+}
+
+article:nth-of-type(2){
+    font-family: "DancingScript-Var";
+}
+article:nth-of-type(3){
+    font-family: "Raleway-Bold";
+    background-color: #4FEBAC;
+    color: white;
+    border-radius: 5px;
+    text-align: justify;
+}
+article:nth-of-type(4){
+    font-family: "Montserrat-Lightitalic";
+}
+article:nth-of-type(5){
+    font-family: "PlayfairDisplay-Italic";
+    background-color: #5C3CDC;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    text-shadow: 1.5px 1.5px 0px black;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+h2, p{
+    margin: 0px 20px 10px 20px;
+}
+
+p:nth-of-type(1){
+    text-indent: 20px;
+    word-spacing: 15px;
+}
+
+p:nth-of-type(2){
+    text-indent: 40px;
+}
+
+h2{
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+p:nth-of-type(3), p:nth-of-type(4){
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 2px 20px;
+
+}
+
+p:nth-of-type(3){
+    background-color: gray;
+}
+
+p:nth-of-type(4){
+    background-color: black;
+    color: white;
+}

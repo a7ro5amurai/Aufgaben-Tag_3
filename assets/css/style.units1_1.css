@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img:nth-of-type(1){
+    width: 200px;
+}
+img:nth-of-type(2){
+    width: 25%;
+}
+img:nth-of-type(3){
+    width: 10em;
+}
+img:nth-of-type(4){
+    width: 20rem;
+}
+img:nth-of-type(5){
+    width: 15vw;
+}
+img:nth-of-type(6){
+    width: 35vh;
+}
